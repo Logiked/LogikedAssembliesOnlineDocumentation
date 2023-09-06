@@ -183,6 +183,86 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.Inspector_Animation2DFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.Inspector_Animation2DFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.Inspector_Animation2DFileMulti.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.Inspector_Animation2DFileMulti.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.Inspector_AnimatorRenderer2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.Inspector_AnimatorRenderer2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.Inspector_SimpleAnimationRenderer2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.Inspector_SimpleAnimationRenderer2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.TextureMetadataExtension.Meta2DAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.TextureMetadataExtension.Meta2DAnimation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.TextureMetadataExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.TextureMetadataExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.settings.LogikedPlugin_2DTools.LogikedPluginFileLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.settings.LogikedPlugin_2DTools.LogikedPluginFileLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.Tool2D.settings.LogikedPlugin_2DTools.yml",
       "output": {
         ".html": {
@@ -207,6 +287,26 @@
       "output": {
         ".html": {
           "relative_path": "api/logiked.language.LogikedPlugin_Language.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.editor.Property_Lstring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.editor.Property_Lstring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.editor.html"
         }
       },
       "version": ""
@@ -553,10 +653,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.IncrementRectMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.IncrementRectMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.FutureFieldDrawer.EditorWindowRetrieve.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.FutureFieldDrawer.EditorWindowRetrieve.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.FutureFieldDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.FutureFieldDrawer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.PropertyExtensioin.IsInArrayMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.PropertyExtensioin.IsInArrayMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.PropertyExtensioin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.PropertyExtensioin.html"
         }
       },
       "version": ""
@@ -653,10 +803,220 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.editor.Inspector_LogikedDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.editor.Inspector_LogikedDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.source.database.yml",
       "output": {
         ".html": {
           "relative_path": "api/logiked.source.database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.EditorExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.EditorExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.GUILogiked.Panels.EditorIconType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.GUILogiked.Panels.EditorIconType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.GUILogiked.Panels.ImageFitMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.GUILogiked.Panels.ImageFitMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.GUILogiked.Panels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.GUILogiked.Panels.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.GUILogiked.Styles.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.GUILogiked.Styles.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.GUILogiked.StylesNodeBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.GUILogiked.StylesNodeBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.GUILogiked.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.GUILogiked.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.LogikedConfigurationWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.LogikedConfigurationWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.LogikedProjectConfig.GlobalWindowConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.LogikedProjectConfig.GlobalWindowConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.LogikedProjectConfig.LogikedGlobalVariableAccess.LogikedGlobalVarianle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.LogikedProjectConfig.LogikedGlobalVariableAccess.LogikedGlobalVarianle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.LogikedProjectConfig.LogikedGlobalVariableAccess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.LogikedProjectConfig.LogikedGlobalVariableAccess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.LogikedProjectConfig.WorkSpaceFrame.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.LogikedProjectConfig.WorkSpaceFrame.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.LogikedProjectConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.LogikedProjectConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.Logiked_AssetsExtention.PathFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.Logiked_AssetsExtention.PathFormat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.Logiked_AssetsExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.Logiked_AssetsExtention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.Logiked_EditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.Logiked_EditorWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.ProjectBrowserReflection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.ProjectBrowserReflection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.PropertyDrawerFinder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.PropertyDrawerFinder.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.editor.html"
         }
       },
       "version": ""
@@ -677,6 +1037,16 @@
       "output": {
         ".html": {
           "relative_path": "api/logiked.source.extentions.DebugC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.EditorExtentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.EditorExtentions.html"
         }
       },
       "version": ""
@@ -763,6 +1133,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.SerializedPropertyExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.SerializedPropertyExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.source.extentions.TimerExtention.yml",
       "output": {
         ".html": {
@@ -797,6 +1177,56 @@
       "output": {
         ".html": {
           "relative_path": "api/logiked.source.gameplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphNodeUtils.BezierGrowDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphNodeUtils.BezierGrowDirection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphNodeUtils.EditMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphNodeUtils.EditMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphNodeUtils.MouseOver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphNodeUtils.MouseOver.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphNodeUtils.NodeLineDesign.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphNodeUtils.NodeLineDesign.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphNodeUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphNodeUtils.html"
         }
       },
       "version": ""
@@ -883,6 +1313,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.ScripableObjectGraphicEditor-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.ScripableObjectGraphicEditor-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.ScripableObjectGraphicEditor-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.ScripableObjectGraphicEditor-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.source.graphNode.TransitionPinModeAttribute.yml",
       "output": {
         ".html": {
@@ -923,6 +1373,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.manager.DefaultGameManager.EditorDefaultGameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.manager.DefaultGameManager.EditorDefaultGameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.source.manager.DefaultGameManager.yml",
       "output": {
         ".html": {
@@ -947,6 +1407,56 @@
       "output": {
         ".html": {
           "relative_path": "api/logiked.source.manager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.packages.EditorCoroutines.EditorCoroutine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.packages.EditorCoroutines.EditorCoroutine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.packages.EditorCoroutines.EditorCoroutineUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.packages.EditorCoroutines.EditorCoroutineUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.packages.EditorCoroutines.EditorWaitForSeconds.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.packages.EditorCoroutines.EditorWaitForSeconds.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.packages.EditorCoroutines.EditorWindowCoroutineExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.packages.EditorCoroutines.EditorWindowCoroutineExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.packages.EditorCoroutines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.packages.EditorCoroutines.html"
         }
       },
       "version": ""
@@ -997,6 +1507,16 @@
       "output": {
         ".html": {
           "relative_path": "api/logiked.source.types.LogikedPlugin-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.Property_vfloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.Property_vfloat.html"
         }
       },
       "version": ""
