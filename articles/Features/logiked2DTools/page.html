@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Logiked 2DTools | Example Unity documentation </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Logiked 2DTools | Example Unity documentation ">
+    
+      <link rel="shortcut icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../../styles/docfx.css">
+      <link rel="stylesheet" href="../../../styles/main.css">
+      <meta property="docfx:navrel" content="../../../toc.html">
+      <meta property="docfx:tocrel" content="../../../pageNavBar/toc.html">
+    
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="logiked-2dtools">Logiked 2DTools</h1>
+
+<p>Le package Logiked2DTools permet de simplifier considérablement le travail avec des animation 2D utilisant des framsheets.</p>
+<h2 id="les-problèmes-dunity">Les problèmes d'Unity</h2>
+<p>Si vous avez déja conçu un jeu mettant en place des animations en pixel art, vous aurez sans doute remarqué les lacunes d'unity. Voici le traîtement que vous aurez à faire pour obtenir des animation depuis une texture :</p>
+<p><img src="intro/useCase1.png" alt="Diagramme explicatif de la chaine de traîtement Textures -&gt; Animations 2D."></p>
+<h3 id="ce-qui-fait-perdre-du-temps">Ce qui fait perdre du temps</h3>
+<ul>
+<li><p>Devoir configurer l'import setting de chaque nouvelles textures.</p>
+</li>
+<li><p>Selectionner chaque sprite 1 à 1 pour le mettre dans une animation. En cas de modification de la spriteSheet, l'intergalité des animations sont à refaire de 0. De plus le système de &quot;Keyframes&quot; des animations Unity, originellement prévues pour de la 3D, ne sont vraiment pas pratique à utiliser pour des sprites.</p>
+</li>
+<li><p>Ensuite, il faut créer un animator et les transitions entre les animations dans Mecanim. Une fois encore, ce n'est pas pratique et ça prends du temps. Mecanim à été concu pour gérer de l'interpolation entre des animations 3D. Dans le cas d'une animation 2D, 90% des features sont inutiles. On passe plus de temps à désactiver des features qu'a en utiliser.</p>
+</li>
+<li><p>Toute la partie &quot;Danger Zone&quot; représente la partie la moins flexible de la chaîne. Si un jour, vous souhaitez modifier votre texture originale pour ajouter une frame ou modifier l'organisation de vos sprites, vous pouvez dire adieu à votre rendu. La plupars des étapes seront à refaire de zéro. Cela limite beaucoup le potentiel du système.</p>
+</li>
+</ul>
+<h1 id="la-solution-proposée">La solution proposée</h1>
+<h2 id="un-système-légér-pratique-et-super-flexible">Un système légér, pratique et super-flexible</h2>
+<p>On a créer notre propre pipeline de gestion des animations. En plus d'être ultra-permissive, elle permet de visualiser le résultat en temps reel. Voici ses 2 composantes principale.</p>
+<h2 id="le-hacheur">Le Hacheur</h2>
+<p><img src="intro/hacheur1.png" alt="Le hacheur"></p>
+<p>Le hacheur s'ouvre avec <code>Ctrl+h</code> en selectionnant une texture, il permet de :</p>
+<ul>
+<li>Configurer l'import settings de la texture selon un presset configurable</li>
+<li>Configurer la découpe en X et Y de la texture</li>
+<li>Générer et organiser automatiquement les animation (du type <a class="xref" href="../../../api/logiked.Tool2D.animation.Animation2DFile.html">Animation2DFile</a>)</li>
+<li>Générer l'animator associé (du type <a class="xref" href="../../../api/logiked.Tool2D.animation.AnimatorController2DFile.html">AnimatorController2DFile</a>)</li>
+</ul>
+<h2 id="lanimatron">L'Animatron</h2>
+<p><img src="intro/animotron1.gif" alt="Le hacheur"></p>
+<p>L'Animatron s'ouvre avec <code>Logiked/Animatron Window</code> en selectionnant un animator. Comme le système mechanim, il permet de :</p>
+<ul>
+<li>Configurer les liens entre les animation et leur transitions</li>
+<li>Visualisation en temps reel le rendu de l'animation de manière intuitive</li>
+</ul>
+<p>issues hacheur:
+Identifier uniqueness violation: 'Name:_AttackNoMovement2_1_2, Type:Sprite, FileId:0'. Multiple Objects with the same FileId are generated by this Importer. There is no guarantee that subsequent imports of this asset will properly re-link to these targets.</p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Logiked/Logiked_DockFX/blob/PreRelease-Testing/Documentation/articles/Features/logiked2DTools/page.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      Example Unity documentation
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
