@@ -1,0 +1,1531 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+    "changefreq": "weekly"
+  },
+  "homepages": [],
+  "source_base_path": "P:/UNITY_PROJECTS_SSD/Logiked_DockFX/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DFile.LoopProcess.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DFile.LoopProcess.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DFileVariations.SpriteDirectionBundle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DFileVariations.SpriteDirectionBundle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DFileVariations.VariationCountModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DFileVariations.VariationCountModeEnum.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DFileVariations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DFileVariations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DNode.AnimationTransitionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DNode.AnimationTransitionMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animation2DReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animation2DReader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animator2DRule.AnimationRuleComparaison.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animator2DRule.AnimationRuleComparaison.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animator2DRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animator2DRule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animator2DTransition.AnimationRuleEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animator2DTransition.AnimationRuleEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.Animator2DTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.Animator2DTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.AnimatorController2DFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.AnimatorController2DFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.AnimatorRenderer2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.AnimatorRenderer2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.SimpleAnimationRenderer2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.SimpleAnimationRenderer2D.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.animation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.animation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.settings.LogikedPlugin_2DTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.settings.LogikedPlugin_2DTools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.Tool2D.settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.Tool2D.settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.LogikedPlugin_Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.LogikedPlugin_Language.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.ILocalizedComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.ILocalizedComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.LocalizedTextComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.LocalizedTextComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.TranslationFileCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.TranslationFileCheck.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.TranslationHeaderInfos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.TranslationHeaderInfos.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.TranslationInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.TranslationInstance.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.TranslationManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.TranslationManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.lstring.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.lstring.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.translate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.translate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.language.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.DrawSpriteBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.DrawSpriteBox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.FieldSectionBegin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.FieldSectionBegin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.FieldSectionColumn.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.FieldSectionColumn.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.FieldSectionEnd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.FieldSectionEnd.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.FieldSectionGui.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.FieldSectionGui.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.FieldSizeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.FieldSizeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.GreyedField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.GreyedField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.GuiMethodAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.GuiMethodAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.HideInNormalInspectorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.HideInNormalInspectorAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.LayerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.LayerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.MinMaxRangeSlider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.MinMaxRangeSlider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.MonoScriptAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.MonoScriptAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.PopupFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.PopupFieldAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.RangeLogikedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.RangeLogikedAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.RangeVfloatAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.RangeVfloatAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.RealtimeEditComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.RealtimeEditComponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.ShowIfAttribute.ComputeMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.ShowIfAttribute.ComputeMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.ShowIfAttribute.ShowCalculation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.ShowIfAttribute.ShowCalculation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.ShowIfAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.ShowIfAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.ShowIfOperations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.ShowIfOperations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.ShowIfRepeatMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.ShowIfRepeatMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.ShowIfSameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.ShowIfSameAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.SortingLayerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.SortingLayerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.AttributeArrayInteraction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.AttributeArrayInteraction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.AttributeContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.AttributeContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.FutureFieldAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.root.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.root.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.attributes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.DatabaseAbstractElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.DatabaseAbstractElement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.DatabaseCanMaskField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.DatabaseCanMaskField.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.DatabaseCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.DatabaseCategory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.DatabaseCategoryNumberAttribue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.DatabaseCategoryNumberAttribue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.DatabaseTagNumberAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.DatabaseTagNumberAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.LogikedDatabase-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.LogikedDatabase-3.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.LogikedDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.LogikedDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.database.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.DebugC.ErrorLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.DebugC.ErrorLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.DebugC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.DebugC.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.GenericsExtentions.ConvertIntMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.GenericsExtentions.ConvertIntMode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.GenericsExtentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.GenericsExtentions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.ObjectsExtension.Icon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.ObjectsExtension.Icon.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.ObjectsExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.ObjectsExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.OnRemoveObjectEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.OnRemoveObjectEvent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.ReflectExtention.ReflectedObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.ReflectExtention.ReflectedObject.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.ReflectExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.ReflectExtention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.RemoveScriptableObjectExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.RemoveScriptableObjectExtention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.TimerExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.TimerExtention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.extentions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.extentions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.gameplay.I_Interactable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.gameplay.I_Interactable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.gameplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.gameplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphicNode-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphicNode-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.GraphicNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.GraphicNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.INodeStorage-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.INodeStorage-2.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.INodeStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.INodeStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.INodeTransitionPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.INodeTransitionPin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.NodeTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.NodeTransition.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.NodeTransitionPin-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.NodeTransitionPin-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.NodeTransitionPin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.NodeTransitionPin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.TransitionPinModeAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.TransitionPinModeAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.graphNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.graphNode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.manager.BaseGameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.manager.BaseGameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.manager.BaseManager-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.manager.BaseManager-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.manager.DefaultGameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.manager.DefaultGameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.manager.IBaseManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.manager.IBaseManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.manager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.manager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.GameTimer.EachFrameAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.GameTimer.EachFrameAction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.GameTimer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.GameTimer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.InputStorage.InputState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.InputStorage.InputState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.InputStorage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.InputStorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.LogikedPlugin-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.LogikedPlugin-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.vfloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.vfloat.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.utilities.ConvertUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.utilities.ConvertUtils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.utilities.EditScriptableAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.utilities.EditScriptableAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.utilities.SimpleDestroyAfter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.utilities.SimpleDestroyAfter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logiked2DTools/hacheur.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logiked2DTools/hacheur.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/animotron1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/animotron1.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/hacheur1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/hacheur1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat3.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat3.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat4.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat4.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat5.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat5.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat6.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat6.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/textureFormat7.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/textureFormat7.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logiked2DTools/intro/useCase1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logiked2DTools/intro/useCase1.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logiked2DTools/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logiked2DTools/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedItemSystem/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedItemSystem/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedLanguage/example.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedLanguage/example.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedLanguage/img1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedLanguage/img1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedLanguage/img2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedLanguage/img2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedLanguage/img3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedLanguage/img3.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedLanguage/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedLanguage/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/attrib2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/attrib2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/attribPrefab1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/attribPrefab1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/img1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/img1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedSourceAttributes/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/sections1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/sections1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/sections2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/sections2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/showif1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/showif1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceAttributes/showif2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceAttributes/showif2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db3.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db4.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db5.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db5.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db6.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db6.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db7.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db7.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db8-2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db8-2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/db8.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceDatabase/db8.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedSourceDatabase/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedSourceDatabase/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedSourceExtentions/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedSourceExtentions/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedSourceTypes/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedSourceTypes/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceTypes/type1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceTypes/type1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/img1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/img1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/MainSection/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/MainSection/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/articles/gettingStarted/img1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/articles/gettingStarted/img1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/home/logikedImg.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/home/logikedImg.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "pageNavBar/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "pageNavBar/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
