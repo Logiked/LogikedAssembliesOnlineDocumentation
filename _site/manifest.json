@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "P:/UNITY_PROJECTS_SSD/Logiked_DockFX/Documentation",
+  "source_base_path": "G:/Documents/UnityProjects/Logiked_DockFX/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -277,6 +277,136 @@
       "output": {
         ".html": {
           "relative_path": "api/logiked.Tool2D.settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.AudioDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.AudioDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.AudioMixerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.AudioMixerAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.AudioSourcePressetAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.AudioSourcePressetAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.GameAudioSource.SoundSourceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.GameAudioSource.SoundSourceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.GameAudioSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.GameAudioSource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.GameSound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.GameSound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.GameSoundFile.GameSoundFileInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.GameSoundFile.GameSoundFileInspector.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.GameSoundFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.GameSoundFile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.Inspector_AudioDatabase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.Inspector_AudioDatabase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.LogikedPlugin_AudioSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.LogikedPlugin_AudioSystem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.PlaySoundOnStart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.PlaySoundOnStart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.Property_GameSound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.Property_GameSound.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.audio.html"
         }
       },
       "version": ""
@@ -1973,30 +2103,80 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/MainSection/img1.jpg",
+      "source_relative_path": "articles/MainSection/Downloads/img1.png",
       "output": {
         "resource": {
-          "relative_path": "articles/MainSection/img1.jpg"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/MainSection/intro.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/MainSection/intro.html"
+          "relative_path": "articles/MainSection/Downloads/img1.png"
         }
       },
       "version": ""
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/articles/gettingStarted/img1.jpg",
+      "source_relative_path": "articles/MainSection/Downloads/img2.png",
       "output": {
         "resource": {
-          "relative_path": "images/articles/gettingStarted/img1.jpg"
+          "relative_path": "articles/MainSection/Downloads/img2.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/MainSection/Downloads/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/MainSection/Downloads/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/GettingStarted/img1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/GettingStarted/img1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/GettingStarted/img2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/GettingStarted/img2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/GettingStarted/img3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/GettingStarted/img3.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/GettingStarted/img4.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/GettingStarted/img4.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/MainSection/GettingStarted/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/MainSection/GettingStarted/intro.html"
         }
       },
       "version": ""
@@ -2012,6 +2192,9 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {

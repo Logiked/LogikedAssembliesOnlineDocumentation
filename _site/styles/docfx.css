@@ -134,6 +134,9 @@ table p {
 table a {
   display: inline-block;
 }
+table td {
+ text-align: center;
+}
 
 /* Make hidden attribute compatible with old browser.*/
 [hidden] {
@@ -682,8 +685,11 @@ li > a:not(.expand-stub + a)   {
   margin-bottom: 5px;
 }
 .article img {
-  max-width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
 }
+
 .sideaffix {
   margin-top: 50px;
   font-size: 12px;
@@ -1086,4 +1092,10 @@ div.embeddedvideo iframe {
 #fields, #properties, #methods, #events {
     font-weight: bold;
     margin-top: 2em;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
 }
