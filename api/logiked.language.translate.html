@@ -87,25 +87,7 @@
     <h3 id="classes">Classes
 </h3>
       <h4><a class="xref" href="logiked.language.translate.LocalizedTextComponent.html">LocalizedTextComponent</a></h4>
-      <section><p>Composant autonome qui affichage une chaine localisé sur un renderer de texte Unity (<a class="xref" href="https://docs.unity3d.com/ScriptReference/TextMesh.html">TextMesh</a>, <span class="xref">UnityEngine.UI.Text</span>, <span class="xref">TMPro.TextMeshPro</span>, <span class="xref">TMPro.TextMeshProUGUI</span>)</p>
-</section>
-      <h4><a class="xref" href="logiked.language.translate.lstring.html">lstring</a></h4>
-      <section><p>Type de base des chaines localisés. A utiliser dans vos scripts comme une chaîne de caractère standard.</p>
-<example>
-<pre><code class="lang-csharp">class Script : MonoBehaviour
-{
-<pre><code>[SerializeField]
-private lstring localizedText; // Chaine traduite éditable dans unity
-</code></pre>
-<p>}</p></code></pre>
-<p>Les <code>lstring</code> sont modifiables depuis unity; elles contienent un duo (clé; valeur), automatiquement enregistrés vers le patch de traduction spécifié dans <a class="xref" href="logiked.language.LogikedPlugin_Language.html#logiked.language.LogikedPlugin_Language.defaultTranslation">defaultTranslation</a>. Consulter la section tutorial pour plus de détails.</p>
-<p>Les <code>lstring</code> sont castables directement en <code>string</code></p>
-<pre><code class="lang-csharp">void Test()
-{
-    //Cast de la traduction du texte
-    string currentTranslatedText = localizedText;
-}</code></pre>
-</example>
+      <section><p>Composant autonome qui affichage une chaine localisé sur un renderer de texte Unity (<see cref="!:UnityEngine.TextMesh"></see>, <span class="xref">UnityEngine.UI.Text</span>, <span class="xref">TMPro.TextMeshPro</span>, <span class="xref">TMPro.TextMeshProUGUI</span>)</p>
 </section>
       <h4><a class="xref" href="logiked.language.translate.TranslationFileCheck.html">TranslationFileCheck</a></h4>
       <section><p>Attribut qui permet d'afficher un message d'erreur dans l'inspecteur si aucun patch de traduction par défaut n'a été défini</p>
@@ -135,7 +117,7 @@ Ce script pourrait implémenter <a class="xref" href="logiked.language.translate
 </section>
       <h4><a class="xref" href="logiked.language.translate.TranslationInstance.html">TranslationInstance</a></h4>
       <section><p>Instance parsée d'un fichier de traduction au format <code>PoEdit</code>.</p>
-<p>Lorsque un patch de traduction est chargé par le <a class="xref" href="logiked.language.translate.TranslationManager.html">TranslationManager</a>, cette classe est générée par <a class="xref" href="logiked.language.translate.TranslationInstance.html#logiked_language_translate_TranslationInstance_GetFromFile_UnityEngine_TextAsset_">GetFromFile(TextAsset)</a>.
+<p>Lorsque un patch de traduction est chargé par le <a class="xref" href="logiked.language.translate.TranslationManager.html">TranslationManager</a>, cette classe est générée par <a class="xref" href="logiked.language.translate.TranslationInstance.html#logiked_language_translate_TranslationInstance_GetFromFile_TextAsset_">GetFromFile(TextAsset)</a>.
 Elle est la représentation d'un patch de traduction et permet d'obtenir ses chaînes traduites.
 Certaines fonctions tels que <a class="xref" href="logiked.language.translate.TranslationInstance.html#logiked_language_translate_TranslationInstance_SaveFile">SaveFile()</a> sont disponibles seulement dans l'éditeur afin de pouvoir enregister les modifications du patch.</p>
 <p>Pour récuperer des chaines traduites et les informations du patch actuel, favoriser les méthodes de <a class="xref" href="logiked.language.translate.TranslationManager.html">TranslationManager</a></p>
@@ -209,6 +191,24 @@ Utilise majoritairement des Méthodes statiques, afin de pouvoir fonctionner dan
 <div class="NOTE"><h5>note</h5><p>
 L'utilisation de <a class="xref" href="logiked.language.translate.LocalizedTextComponent.html">LocalizedTextComponent</a> et de <a class="xref" href="logiked.language.translate.lstring.html">lstring</a> simplifient grandement l'implémentation du plugin en offrant des interfaces intuitives.
 </p></div>
+</section>
+      <h4><a class="xref" href="logiked.language.translate.lstring.html">lstring</a></h4>
+      <section><p>Type de base des chaines localisés. A utiliser dans vos scripts comme une chaîne de caractère standard.</p>
+<example>
+<pre><code class="lang-csharp">class Script : MonoBehaviour
+{
+<pre><code>[SerializeField]
+private lstring localizedText; // Chaine traduite éditable dans unity
+</code></pre>
+<p>}</p></code></pre>
+<p>Les <code>lstring</code> sont modifiables depuis unity; elles contienent un duo (clé; valeur), automatiquement enregistrés vers le patch de traduction spécifié dans <a class="xref" href="logiked.language.LogikedPlugin_Language.html#logiked.language.LogikedPlugin_Language.defaultTranslation">defaultTranslation</a>. Consulter la section tutorial pour plus de détails.</p>
+<p>Les <code>lstring</code> sont castables directement en <code>string</code></p>
+<pre><code class="lang-csharp">void Test()
+{
+    //Cast de la traduction du texte
+    string currentTranslatedText = localizedText;
+}</code></pre>
+</example>
 </section>
     <h3 id="interfaces">Interfaces
 </h3>

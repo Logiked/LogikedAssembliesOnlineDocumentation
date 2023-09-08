@@ -9,14 +9,14 @@
       <meta name="viewport" content="width=device-width">
       <meta name="title" content="Getting started | Example Unity documentation ">
     
-      <link rel="shortcut icon" href="../../favicon.ico">
-      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../../styles/docfx.css">
-      <link rel="stylesheet" href="../../styles/main.css">
-      <meta property="docfx:navrel" content="../../toc.html">
-      <meta property="docfx:tocrel" content="../../pageNavBar/toc.html">
+      <link rel="shortcut icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../../styles/docfx.css">
+      <link rel="stylesheet" href="../../../styles/main.css">
+      <meta property="docfx:navrel" content="../../../toc.html">
+      <meta property="docfx:tocrel" content="../../../pageNavBar/toc.html">
     
-    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:rel" content="../../../">
     
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
@@ -33,8 +33,8 @@
                 <span class="icon-bar"></span>
               </button>
 
-              <a class="navbar-brand" href="../../index.html">
-                <img id="logo" class="svg" src="../../logo.svg" alt="">
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -76,26 +76,57 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="getting-started">Getting started</h1>
 
-<h2 id="logiked-assemblies-cest-quoi-">Logiked Assemblies c'est quoi ?</h2>
-<h2 id="installation">Installation</h2>
-<p>Cloner le repo dans le projet unity <em>(ici dans Plugins/LogikedAssemblies)</em>. Il est possible que vous ayez besoin d'ajouter le plugin au Gitignore du repo de votre projet. Normalement vous avez maintenant accés à une section <strong>&quot;Logiked&quot;</strong> dans la barre de menus.</p>
-<p><img src="../../images/articles/gettingStarted/img1.jpg" alt="alt text" title="Section Logiked"></p>
-<p>Depuis cette fenetres vous pouvez choisir les plugins utiles a votre jeu. Notez qu'a partir de maintenant, vous avez accés à l'assembly LogikedSource, qui est la base de tout les autres. Dedans vous y trouverez</p>
+<hr>
+<p><strong>Notes</strong> : ⚠️ Cette section n'est pas à jour.</p>
+<hr>
+<h1 id="getting-started">Getting started</h1>
+<p>Les plugins Logiked sont installables depuis le package manager Unity. La configuration minimale pour commencer est le package <code>LogikedSource</code>.</p>
+<p>Consulter la section <a href="../Downloads/intro.html">Téléchargements</a> pour cet étape.</p>
+<h2 id="premier-lancement">Premier lancement</h2>
+<p>Une fois le package <code>LogikedSource</code> installé, vous avez accés à l'onget <code>Logiked/ConfigurationWindow</code>.</p>
+<p><img src="img1.jpg" alt="Configuraion window" title="Section Logiked"></p>
+<p>Cette fenêtre est l'élément central des plugins. Ici vous pouver</p>
 <ul>
-<li>Un système de manager pour votre jeu</li>
-<li>Un système de base de données pour vos ScriptableObjects</li>
-<li>Un système d'attributs amélioré et des attributs utiles</li>
-<li>Un grand nombre d'extentions pour les type de base</li>
+<li>Consulter les plugins installés et modifier leur configuration</li>
+<li>Naviguer rapidement entre les scènes et les fichiers de votre projet</li>
+<li>Définir des valeurs de votre projet (Champs de scriptable objects par exemple) comme des variables Globales, et choisir leur valeur entre le mode editeur et la version build du jeu.</li>
 </ul>
+<hr>
+<p><strong>Notes</strong> : Un tuto sera bientot disponible pour présenter le fonctionnement de cette fenêtre [tuto logiked source]</p>
+<hr>
 <h2 id="votre-scène-de-base">Votre scène de base</h2>
-<p>Redéfinissez la classe snigleton <a class="xref" href="../../api/logiked.source.manager.BaseGameManager.html">BaseGameManager</a>, ce sera le point d'entré de votre jeu. Si vous avez la flemme vous pouvez utiliser temporairement le composant @&quot;logiked.source.external.ExampleGameManager&quot; déja défini. Vous pouvez obter pour l'organisation suivante :</p>
-<p><img src="img1.jpg" alt="manager img"></p>
+<p>L'arborescence des scène est orienté autour de Managers : des classes qui s'occupent de la gestion global de votre projets. Chaque manager à un travail particulier, l'un gère les joueur, l'autre la map, un pour les settings, etc.</p>
+<p><img src="img2.jpg" alt="manager img"></p>
+<p> </p>
+<hr>
+<p><strong>Notes</strong> : Les Managers sont des singletons accessiles depuis le code via leur champ <code>BaseManager&lt;T&gt;.Instance</code>. Il sont initialisés dans un ordre précis</p>
+<hr>
+<p> </p>
+<ul>
+<li>Pour commencer simplement, créez une nouvelle scène et placez y un objet vide.</li>
+<li>Ajouter y le script <code>DefaultGameManager</code></li>
+</ul>
+<p><img src="img3.jpg" alt="manager img"></p>
+<p>Le boutton <code>&quot;Add Manager&quot;</code> vous permet d'ajouter des managers directement présent dans vos assets, y compris ceux que vous avez vous-même développé. Voici un exemple de manager :</p>
+<pre><code class="lang-CSharp">using logiked.source.manager;
+using UnityEngine;
+
+public class MyPlayerManager : BaseManager&lt;MyPlayerManager&gt;
+{
+    //Appelé automatiquement par le GameManager
+    protected override void InitManager()
+    {
+        // Player spawn &amp; intialisation, called 1 time.
+    }
+
+}
+</code></pre>
+<p><img src="img4.jpg" alt="Le manager apparait correctement"></p>
 <h2 id="les-plis-à-prendre">Les plis à prendre</h2>
 <p>A partir de maintenant il y à certaines règles à respecter,entre vous et logiked. Soyez gentil avec lui et il vous rendra la pareille.</p>
 <ul>
-<li>Pour instancier des GameObject, favorisez l'extentions <code>GameObject.Inst()</code> dans @&quot;logiked.source.utilities.GenericsExtentions&quot;. Les Objets instanciés sont alors stockés dans le transform <a class="xref" href="../../api/logiked.source.manager.BaseGameManager.html">BaseGameManager</a>.TempInstanceParent.</li>
+<li>Pour instancier des GameObject, favorisez l'extentions <code>GameObject.Inst()</code>. Les Objets instanciés sont alors stockés par le <code>GameManager</code></li>
 </ul>
 </article>
           </div>
@@ -105,7 +136,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Logiked/Logiked_DockFX/blob/Web/Documentation/articles/MainSection/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Logiked/Logiked_DockFX/blob/PreRelease-Testing/Documentation/articles/MainSection/GettingStarted/intro.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -132,8 +163,8 @@
       </footer>
     </div>
 
-    <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../../styles/docfx.js"></script>
-    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
   </body>
 </html>
