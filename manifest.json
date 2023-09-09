@@ -2122,6 +2122,116 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/GlobalsGif1.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/GlobalsGif1.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/GlobalsGif2.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/GlobalsGif2.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/globals1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/globals1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/globals2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/globals2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/img1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/img1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/navigation.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/navigation.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/packages.gif",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/packages.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/scenes1.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/scenes1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/scenes2.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/scenes2.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/medias/scenes3.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/medias/scenes3.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/Features/logikedSourceProjectWindow/page.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/Features/logikedSourceProjectWindow/page.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "articles/Features/logikedSourceTypes/page.md",
       "output": {

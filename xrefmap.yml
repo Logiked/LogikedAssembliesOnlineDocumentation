@@ -5618,15 +5618,6 @@ references:
   fullName.vb: logiked.source.extentions.DebugC.Log(String, UnityEngine.Color, String, String, logiked.source.extentions.DebugC.ErrorLevel, UnityEngine.Object)
   nameWithType: DebugC.Log(string, Color, string, string, DebugC.ErrorLevel, Object)
   nameWithType.vb: DebugC.Log(String, Color, String, String, DebugC.ErrorLevel, Object)
-- uid: logiked.source.extentions.DebugC.Log(System.String,UnityEngine.Color,System.String,System.String,System.Int32,UnityEngine.Object)
-  name: Log(string, Color, string, string, int, Object)
-  href: api/logiked.source.extentions.DebugC.html#logiked_source_extentions_DebugC_Log_System_String_UnityEngine_Color_System_String_System_String_System_Int32_UnityEngine_Object_
-  commentId: M:logiked.source.extentions.DebugC.Log(System.String,UnityEngine.Color,System.String,System.String,System.Int32,UnityEngine.Object)
-  name.vb: Log(String, Color, String, String, Integer, Object)
-  fullName: logiked.source.extentions.DebugC.Log(string, UnityEngine.Color, string, string, int, UnityEngine.Object)
-  fullName.vb: logiked.source.extentions.DebugC.Log(String, UnityEngine.Color, String, String, Integer, UnityEngine.Object)
-  nameWithType: DebugC.Log(string, Color, string, string, int, Object)
-  nameWithType.vb: DebugC.Log(String, Color, String, String, Integer, Object)
 - uid: logiked.source.extentions.DebugC.Log*
   name: Log
   href: api/logiked.source.extentions.DebugC.html#logiked_source_extentions_DebugC_Log_
