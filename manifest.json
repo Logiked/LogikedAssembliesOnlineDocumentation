@@ -2153,6 +2153,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Audio_System.unitypackage",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Audio_System.unitypackage"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Language_System.unitypackage",
       "output": {
         "resource": {
