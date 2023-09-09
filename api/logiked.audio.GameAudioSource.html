@@ -89,7 +89,11 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><span class="xref">GameAudioSource</span></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Component.html">Component</a></div>
+    <div class="level3"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Behaviour.html">Behaviour</a></div>
+    <div class="level4"><a class="xref" href="https://docs.unity3d.com/ScriptReference/MonoBehaviour.html">MonoBehaviour</a></div>
+    <div class="level5"><span class="xref">GameAudioSource</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="logiked.html">logiked</a>.<a class="xref" href="logiked.audio.html">audio</a></h6>
   <h6><strong>Assembly</strong>: Logiked_AudioSystem.dll</h6>
@@ -102,17 +106,19 @@ public class GameAudioSource : MonoBehaviour</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_ambiantSound.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.ambiantSound%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_ambiantSound.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.ambiantSound%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L59">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L59">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_ambiantSound" data-uid="logiked.audio.GameAudioSource.ambiantSound">ambiantSound</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(ShowIfRepeatMode.Same)]
+[SerializeField]
+[Tooltip(&quot;D&#233;pendance &#224; la spatialisation 3D (distance, effet doppler). Grosso modo : Si cette courbe est &#224; 0 le son sera entenu partout dans la scene.&quot;)]
 public AnimationCurve ambiantSound</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -125,24 +131,25 @@ public AnimationCurve ambiantSound</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AnimationCurve</span></td>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/AnimationCurve.html">AnimationCurve</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_audioMixer.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.audioMixer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_audioMixer.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.audioMixer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L66">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L66">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_audioMixer" data-uid="logiked.audio.GameAudioSource.audioMixer">audioMixer</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(ShowIfRepeatMode.Same)]
+[Tooltip(&quot;AudioMixer &#224; utiliser sur l&#39;AudioSource&quot;)]
 public int audioMixer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -162,17 +169,19 @@ public int audioMixer</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_dopplerEffect.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.dopplerEffect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_dopplerEffect.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.dopplerEffect%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L63">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L63">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_dopplerEffect" data-uid="logiked.audio.GameAudioSource.dopplerEffect">dopplerEffect</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(ShowIfRepeatMode.Same)]
+[SerializeField]
+[Tooltip(&quot;Quantit&#233; d&#39;effet doppler. [0.1 c&#39;est bien]&quot;)]
 public float dopplerEffect</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -192,17 +201,19 @@ public float dopplerEffect</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_maxDistance.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.maxDistance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_maxDistance.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.maxDistance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L46">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L46">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_maxDistance" data-uid="logiked.audio.GameAudioSource.maxDistance">maxDistance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(&quot;audioSourceType&quot;, ShowIfOperations.Equal, GameAudioSource.SoundSourceType.Generated)]
+[SerializeField]
+[Tooltip(&quot;Distance max pour l&#39;&#233;mission du son&quot;)]
 public float maxDistance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -222,10 +233,10 @@ public float maxDistance</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_mixerType.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.mixerType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_mixerType.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.mixerType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L83">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L83">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_mixerType" data-uid="logiked.audio.GameAudioSource.mixerType">mixerType</h4>
   <div class="markdown level1 summary"></div>
@@ -252,17 +263,19 @@ public int mixerType</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_sourcePresset.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.sourcePresset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_sourcePresset.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.sourcePresset%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L73">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L73">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_sourcePresset" data-uid="logiked.audio.GameAudioSource.sourcePresset">sourcePresset</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(&quot;audioSourceType&quot;, ShowIfOperations.Equal, GameAudioSource.SoundSourceType.Presset)]
+[SerializeField]
+[Tooltip(&quot;Le presset de l&#39;AudioSource &#224; utiliser&quot;)]
 public int sourcePresset</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -282,17 +295,19 @@ public int sourcePresset</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_stereoByDistance.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.stereoByDistance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_stereoByDistance.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.stereoByDistance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L55">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L55">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_stereoByDistance" data-uid="logiked.audio.GameAudioSource.stereoByDistance">stereoByDistance</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(ShowIfRepeatMode.Same)]
+[SerializeField]
+[Tooltip(&quot;R&#233;partition de la st&#233;r&#233;o en fonction de la distance par rapport &#224; la source.\n Absice: distance [0;1]\n Ordonn&#233;e: 0 = St&#233;r&#233;o, 0.5 = Mono, 1 = St&#233;r&#233;o invers&#233;&quot;)]
 public AnimationCurve stereoByDistance</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -305,24 +320,26 @@ public AnimationCurve stereoByDistance</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AnimationCurve</span></td>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/AnimationCurve.html">AnimationCurve</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_volumeCoeficient.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.volumeCoeficient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_volumeCoeficient.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.volumeCoeficient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L50">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L50">View Source</a>
   </span>
   <h4 id="logiked_audio_GameAudioSource_volumeCoeficient" data-uid="logiked.audio.GameAudioSource.volumeCoeficient">volumeCoeficient</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ShowIfAttribute]
+    <pre><code class="lang-csharp hljs">[ShowIf(ShowIfRepeatMode.Same)]
+[SerializeField]
+[Tooltip(&quot;Le coef de volume. (WIP mettre une courbe un de ces 4)&quot;)]
 public float volumeCoeficient</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
@@ -344,10 +361,10 @@ public float volumeCoeficient</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_AudioSourceType.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.AudioSourceType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_AudioSourceType.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.AudioSourceType%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L33">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L33">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_AudioSourceType_" data-uid="logiked.audio.GameAudioSource.AudioSourceType*"></a>
   <h4 id="logiked_audio_GameAudioSource_AudioSourceType" data-uid="logiked.audio.GameAudioSource.AudioSourceType">AudioSourceType</h4>
@@ -374,10 +391,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_CurrentSoundDuration.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.CurrentSoundDuration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_CurrentSoundDuration.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.CurrentSoundDuration%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L127">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L127">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_CurrentSoundDuration_" data-uid="logiked.audio.GameAudioSource.CurrentSoundDuration*"></a>
   <h4 id="logiked_audio_GameAudioSource_CurrentSoundDuration" data-uid="logiked.audio.GameAudioSource.CurrentSoundDuration">CurrentSoundDuration</h4>
@@ -405,10 +422,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_CurrentUsedPitch.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.CurrentUsedPitch%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_CurrentUsedPitch.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.CurrentUsedPitch%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L103">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L103">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_CurrentUsedPitch_" data-uid="logiked.audio.GameAudioSource.CurrentUsedPitch*"></a>
   <h4 id="logiked_audio_GameAudioSource_CurrentUsedPitch" data-uid="logiked.audio.GameAudioSource.CurrentUsedPitch">CurrentUsedPitch</h4>
@@ -435,10 +452,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_CurrentlyPlaying.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.CurrentlyPlaying%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_CurrentlyPlaying.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.CurrentlyPlaying%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L122">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L122">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_CurrentlyPlaying_" data-uid="logiked.audio.GameAudioSource.CurrentlyPlaying*"></a>
   <h4 id="logiked_audio_GameAudioSource_CurrentlyPlaying" data-uid="logiked.audio.GameAudioSource.CurrentlyPlaying">CurrentlyPlaying</h4>
@@ -459,17 +476,17 @@ public float volumeCoeficient</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AudioClip</span></td>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/AudioClip.html">AudioClip</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_IsLoopingSound.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.IsLoopingSound%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_IsLoopingSound.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.IsLoopingSound%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L132">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L132">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_IsLoopingSound_" data-uid="logiked.audio.GameAudioSource.IsLoopingSound*"></a>
   <h4 id="logiked_audio_GameAudioSource_IsLoopingSound" data-uid="logiked.audio.GameAudioSource.IsLoopingSound">IsLoopingSound</h4>
@@ -497,10 +514,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_Pitch.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Pitch%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_Pitch.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Pitch%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L97">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L97">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_Pitch_" data-uid="logiked.audio.GameAudioSource.Pitch*"></a>
   <h4 id="logiked_audio_GameAudioSource_Pitch" data-uid="logiked.audio.GameAudioSource.Pitch">Pitch</h4>
@@ -527,10 +544,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_Source.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Source%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_Source.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Source%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L84">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L84">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_Source_" data-uid="logiked.audio.GameAudioSource.Source*"></a>
   <h4 id="logiked_audio_GameAudioSource_Source" data-uid="logiked.audio.GameAudioSource.Source">Source</h4>
@@ -550,17 +567,17 @@ public float volumeCoeficient</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AudioSource</span></td>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/AudioSource.html">AudioSource</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_Volume.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Volume%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_Volume.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Volume%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L96">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L96">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_Volume_" data-uid="logiked.audio.GameAudioSource.Volume*"></a>
   <h4 id="logiked_audio_GameAudioSource_Volume" data-uid="logiked.audio.GameAudioSource.Volume">Volume</h4>
@@ -587,10 +604,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_Volume_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Volume_%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_Volume_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.Volume_%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L99">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L99">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_Volume__" data-uid="logiked.audio.GameAudioSource.Volume_*"></a>
   <h4 id="logiked_audio_GameAudioSource_Volume_" data-uid="logiked.audio.GameAudioSource.Volume_">Volume_</h4>
@@ -619,10 +636,10 @@ public float volumeCoeficient</code></pre>
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_PlaySound_logiked_audio_GameSound_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.PlaySound(logiked.audio.GameSound)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_PlaySound_logiked_audio_GameSound_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.PlaySound(logiked.audio.GameSound)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L276">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L276">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_PlaySound_" data-uid="logiked.audio.GameAudioSource.PlaySound*"></a>
   <h4 id="logiked_audio_GameAudioSource_PlaySound_logiked_audio_GameSound_" data-uid="logiked.audio.GameAudioSource.PlaySound(logiked.audio.GameSound)">PlaySound(GameSound)</h4>
@@ -651,10 +668,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_PlaySound_logiked_audio_GameSoundFile_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.PlaySound(logiked.audio.GameSoundFile)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_PlaySound_logiked_audio_GameSoundFile_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.PlaySound(logiked.audio.GameSoundFile)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L265">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L265">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_PlaySound_" data-uid="logiked.audio.GameAudioSource.PlaySound*"></a>
   <h4 id="logiked_audio_GameAudioSource_PlaySound_logiked_audio_GameSoundFile_" data-uid="logiked.audio.GameAudioSource.PlaySound(logiked.audio.GameSoundFile)">PlaySound(GameSoundFile)</h4>
@@ -683,13 +700,13 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_PlaySoundClip_AudioClip_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.PlaySoundClip(AudioClip)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_PlaySoundClip_UnityEngine_AudioClip_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.PlaySoundClip(UnityEngine.AudioClip)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L270">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L270">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_PlaySoundClip_" data-uid="logiked.audio.GameAudioSource.PlaySoundClip*"></a>
-  <h4 id="logiked_audio_GameAudioSource_PlaySoundClip_AudioClip_" data-uid="logiked.audio.GameAudioSource.PlaySoundClip(AudioClip)">PlaySoundClip(AudioClip)</h4>
+  <h4 id="logiked_audio_GameAudioSource_PlaySoundClip_UnityEngine_AudioClip_" data-uid="logiked.audio.GameAudioSource.PlaySoundClip(UnityEngine.AudioClip)">PlaySoundClip(AudioClip)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
@@ -707,7 +724,7 @@ public float volumeCoeficient</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AudioClip</span></td>
+        <td><a class="xref" href="https://docs.unity3d.com/ScriptReference/AudioClip.html">AudioClip</a></td>
         <td><span class="parametername">sound</span></td>
         <td></td>
       </tr>
@@ -715,10 +732,10 @@ public float volumeCoeficient</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_StopSound.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.StopSound%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_StopSound.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.StopSound%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L239">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L239">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_StopSound_" data-uid="logiked.audio.GameAudioSource.StopSound*"></a>
   <h4 id="logiked_audio_GameAudioSource_StopSound" data-uid="logiked.audio.GameAudioSource.StopSound">StopSound()</h4>
@@ -730,10 +747,10 @@ public float volumeCoeficient</code></pre>
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource_VolumeFade_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.VolumeFade(System.Single%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource_VolumeFade_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource.VolumeFade(System.Single%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L249">View Source</a>
+    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L249">View Source</a>
   </span>
   <a id="logiked_audio_GameAudioSource_VolumeFade_" data-uid="logiked.audio.GameAudioSource.VolumeFade*"></a>
   <h4 id="logiked_audio_GameAudioSource_VolumeFade_System_Single_System_Single_" data-uid="logiked.audio.GameAudioSource.VolumeFade(System.Single,System.Single)">VolumeFade(float, float)</h4>
@@ -767,6 +784,9 @@ public float volumeCoeficient</code></pre>
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
+      <a class="xref" href="logiked.source.extentions.ObjectsExtension.html#logiked_source_extentions_ObjectsExtension_CopyComponent__1___0_UnityEngine_GameObject_">ObjectsExtension.CopyComponent&lt;T&gt;(T, GameObject)</a>
+  </div>
+  <div>
       <a class="xref" href="logiked.source.extentions.ObjectsExtension.html#logiked_source_extentions_ObjectsExtension_SerializeToByteArray_System_Object_">ObjectsExtension.SerializeToByteArray(object)</a>
   </div>
   <div>
@@ -774,6 +794,39 @@ public float volumeCoeficient</code></pre>
   </div>
   <div>
       <a class="xref" href="logiked.source.extentions.ReflectExtention.html#logiked_source_extentions_ReflectExtention_IsTypeOf__1_System_Object_">ReflectExtention.IsTypeOf&lt;T&gt;(object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.editor.navigation.AssetNavigationUtility.html#logiked_editor_navigation_AssetNavigationUtility_GetAllConnectedObjects_UnityEngine_Object_">AssetNavigationUtility.GetAllConnectedObjects(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_AddLabel_UnityEngine_Object_System_String___">Logiked_AssetsExtention.AddLabel(Object, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_GetAssetPath_UnityEngine_Object_logiked_source_editor_Logiked_AssetsExtention_PathFormat_System_Boolean_">Logiked_AssetsExtention.GetAssetPath(Object, Logiked_AssetsExtention.PathFormat, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_HasLabel_UnityEngine_Object_System_String_">Logiked_AssetsExtention.HasLabel(Object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_IsImmutableAsset_UnityEngine_Object_">Logiked_AssetsExtention.IsImmutableAsset(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_RemoveLabel_UnityEngine_Object_">Logiked_AssetsExtention.RemoveLabel(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_RemoveLabel_UnityEngine_Object_System_String_System_Boolean_">Logiked_AssetsExtention.RemoveLabel(Object, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_SaveAndReload_UnityEngine_Object_">Logiked_AssetsExtention.SaveAndReload(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_SetDirtyNow_UnityEngine_Object_">Logiked_AssetsExtention.SetDirtyNow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.ProjectBrowserReflection.html#logiked_source_editor_ProjectBrowserReflection_GetGUID_UnityEngine_Object_">ProjectBrowserReflection.GetGUID(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.ProjectBrowserReflection.html#logiked_source_editor_ProjectBrowserReflection_SelectAssetInProjectWindow_UnityEngine_Object_">ProjectBrowserReflection.SelectAssetInProjectWindow(Object)</a>
   </div>
 
 </article>
@@ -784,10 +837,10 @@ public float volumeCoeficient</code></pre>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/logiked/LogikedAudioSystem/new/PreRelease-Testing/apiSpec/new?filename=logiked_audio_GameAudioSource.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/logiked/LogikedAudioSystem/new/Unity-Release/apiSpec/new?filename=logiked_audio_GameAudioSource.md&amp;value=---%0Auid%3A%20logiked.audio.GameAudioSource%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/logiked/LogikedAudioSystem/blob/PreRelease-Testing/Script/GameAudioSource.cs/#L17" class="contribution-link">View Source</a>
+                    <a href="https://github.com/logiked/LogikedAudioSystem/blob/Unity-Release/Script/GameAudioSource.cs/#L17" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
