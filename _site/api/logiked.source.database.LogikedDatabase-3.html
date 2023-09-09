@@ -92,9 +92,11 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
-    <div class="level1"><a class="xref" href="logiked.source.database.LogikedDatabase.html">LogikedDatabase</a></div>
-    <div class="level2"><span class="xref">LogikedDatabase&lt;A, D, C&gt;</span></div>
-      <div class="level3"><a class="xref" href="logiked.audio.AudioDatabase.html">AudioDatabase</a></div>
+    <div class="level1"><a class="xref" href="https://docs.unity3d.com/ScriptReference/Object.html">Object</a></div>
+    <div class="level2"><a class="xref" href="https://docs.unity3d.com/ScriptReference/ScriptableObject.html">ScriptableObject</a></div>
+    <div class="level3"><a class="xref" href="logiked.source.database.LogikedDatabase.html">LogikedDatabase</a></div>
+    <div class="level4"><span class="xref">LogikedDatabase&lt;A, D, C&gt;</span></div>
+      <div class="level5"><a class="xref" href="logiked.audio.AudioDatabase.html">AudioDatabase</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -150,10 +152,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_databaseElementsLabel.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.databaseElementsLabel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_databaseElementsLabel.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.databaseElementsLabel%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L46">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L46">View Source</a>
   </span>
   <h4 id="logiked_source_database_LogikedDatabase_3_databaseElementsLabel" data-uid="logiked.source.database.LogikedDatabase`3.databaseElementsLabel">databaseElementsLabel</h4>
   <div class="markdown level1 summary"><p>Label ajouté a tout les Assets crées dans la base de donnée</p>
@@ -161,7 +163,9 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected string databaseElementsLabel</code></pre>
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;Label ajout&#233; a tout les Assets cr&#233;es dans la base de donn&#233;e&quot;)]
+protected string databaseElementsLabel</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
@@ -180,10 +184,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_instance.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_instance.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L34">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L34">View Source</a>
   </span>
   <h4 id="logiked_source_database_LogikedDatabase_3_instance" data-uid="logiked.source.database.LogikedDatabase`3.instance">instance</h4>
   <div class="markdown level1 summary"><p>[WIP] l'instance cette Bdd (dans le cadre ou c'est un singleton)</p>
@@ -210,10 +214,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_isSingletonDatabase.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.isSingletonDatabase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_isSingletonDatabase.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.isSingletonDatabase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L40">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L40">View Source</a>
   </span>
   <h4 id="logiked_source_database_LogikedDatabase_3_isSingletonDatabase" data-uid="logiked.source.database.LogikedDatabase`3.isSingletonDatabase">isSingletonDatabase</h4>
   <div class="markdown level1 summary"><p>[WIP] Cette Database est la seule de son type ? Dans ce cas on peut y acceder par DatabaseType.Instance</p>
@@ -221,7 +225,9 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected bool isSingletonDatabase</code></pre>
+    <pre><code class="lang-csharp hljs">[SerializeField]
+[Tooltip(&quot;[WIP] Cette Database est la seule de son type ? Dans ce cas on peut y acceder par DatabaseType.Instance&quot;)]
+protected bool isSingletonDatabase</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
@@ -240,10 +246,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_itemList.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.itemList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_itemList.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.itemList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L53">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L53">View Source</a>
   </span>
   <h4 id="logiked_source_database_LogikedDatabase_3_itemList" data-uid="logiked.source.database.LogikedDatabase`3.itemList">itemList</h4>
   <div class="markdown level1 summary"><p>La liste de tout les items contenu dans la BDD</p>
@@ -251,7 +257,8 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;D&gt; itemList</code></pre>
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected List&lt;D&gt; itemList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-condensed">
@@ -272,10 +279,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_Categories.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.Categories%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_Categories.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.Categories%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L79">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L79">View Source</a>
   </span>
   <a id="logiked_source_database_LogikedDatabase_3_Categories_" data-uid="logiked.source.database.LogikedDatabase`3.Categories*"></a>
   <h4 id="logiked_source_database_LogikedDatabase_3_Categories" data-uid="logiked.source.database.LogikedDatabase`3.Categories">Categories</h4>
@@ -284,7 +291,8 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override DatabaseCategory[] Categories { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">[SerializeField]
+protected override DatabaseCategory[] Categories { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -305,10 +313,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div><a class="xref" href="logiked.source.database.LogikedDatabase.html#logiked_source_database_LogikedDatabase_Categories">LogikedDatabase.Categories</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_Instance.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.Instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_Instance.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.Instance%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L29">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L29">View Source</a>
   </span>
   <a id="logiked_source_database_LogikedDatabase_3_Instance_" data-uid="logiked.source.database.LogikedDatabase`3.Instance*"></a>
   <h4 id="logiked_source_database_LogikedDatabase_3_Instance" data-uid="logiked.source.database.LogikedDatabase`3.Instance">Instance</h4>
@@ -336,10 +344,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_ItemList.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.ItemList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_ItemList.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.ItemList%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L58">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L58">View Source</a>
   </span>
   <a id="logiked_source_database_LogikedDatabase_3_ItemList_" data-uid="logiked.source.database.LogikedDatabase`3.ItemList*"></a>
   <h4 id="logiked_source_database_LogikedDatabase_3_ItemList" data-uid="logiked.source.database.LogikedDatabase`3.ItemList">ItemList</h4>
@@ -367,10 +375,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_ItemListBase.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.ItemListBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_ItemListBase.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.ItemListBase%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L63">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L63">View Source</a>
   </span>
   <a id="logiked_source_database_LogikedDatabase_3_ItemListBase_" data-uid="logiked.source.database.LogikedDatabase`3.ItemListBase*"></a>
   <h4 id="logiked_source_database_LogikedDatabase_3_ItemListBase" data-uid="logiked.source.database.LogikedDatabase`3.ItemListBase">ItemListBase</h4>
@@ -402,10 +410,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_SetItemList_System_Collections_Generic_List__1__.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.SetItemList(System.Collections.Generic.List%7B%601%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_SetItemList_System_Collections_Generic_List__1__.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.SetItemList(System.Collections.Generic.List%7B%601%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L67">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L67">View Source</a>
   </span>
   <a id="logiked_source_database_LogikedDatabase_3_SetItemList_" data-uid="logiked.source.database.LogikedDatabase`3.SetItemList*"></a>
   <h4 id="logiked_source_database_LogikedDatabase_3_SetItemList_System_Collections_Generic_List__1__" data-uid="logiked.source.database.LogikedDatabase`3.SetItemList(System.Collections.Generic.List{`1})">SetItemList(List&lt;D&gt;)</h4>
@@ -434,10 +442,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_SetItemList_System_Collections_Generic_List_logiked_source_database_DatabaseAbstractElement__.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.SetItemList(System.Collections.Generic.List%7Blogiked.source.database.DatabaseAbstractElement%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3_SetItemList_System_Collections_Generic_List_logiked_source_database_DatabaseAbstractElement__.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603.SetItemList(System.Collections.Generic.List%7Blogiked.source.database.DatabaseAbstractElement%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L66">View Source</a>
+    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L66">View Source</a>
   </span>
   <a id="logiked_source_database_LogikedDatabase_3_SetItemList_" data-uid="logiked.source.database.LogikedDatabase`3.SetItemList*"></a>
   <h4 id="logiked_source_database_LogikedDatabase_3_SetItemList_System_Collections_Generic_List_logiked_source_database_DatabaseAbstractElement__" data-uid="logiked.source.database.LogikedDatabase`3.SetItemList(System.Collections.Generic.List{logiked.source.database.DatabaseAbstractElement})">SetItemList(List&lt;DatabaseAbstractElement&gt;)</h4>
@@ -476,6 +484,48 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
   <div>
       <a class="xref" href="logiked.source.extentions.ReflectExtention.html#logiked_source_extentions_ReflectExtention_IsTypeOf__1_System_Object_">ReflectExtention.IsTypeOf&lt;T&gt;(object)</a>
   </div>
+  <div>
+      <a class="xref" href="logiked.editor.navigation.AssetNavigationUtility.html#logiked_editor_navigation_AssetNavigationUtility_GetAllConnectedObjects_UnityEngine_Object_">AssetNavigationUtility.GetAllConnectedObjects(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_AddLabel_UnityEngine_Object_System_String___">Logiked_AssetsExtention.AddLabel(Object, params string[])</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_GetAssetPath_UnityEngine_Object_logiked_source_editor_Logiked_AssetsExtention_PathFormat_System_Boolean_">Logiked_AssetsExtention.GetAssetPath(Object, Logiked_AssetsExtention.PathFormat, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_HasLabel_UnityEngine_Object_System_String_">Logiked_AssetsExtention.HasLabel(Object, string)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_IsImmutableAsset_UnityEngine_Object_">Logiked_AssetsExtention.IsImmutableAsset(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_RemoveLabel_UnityEngine_Object_">Logiked_AssetsExtention.RemoveLabel(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_RemoveLabel_UnityEngine_Object_System_String_System_Boolean_">Logiked_AssetsExtention.RemoveLabel(Object, string, bool)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_SaveAndReload_UnityEngine_Object_">Logiked_AssetsExtention.SaveAndReload(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_SetDirtyNow_UnityEngine_Object_">Logiked_AssetsExtention.SetDirtyNow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.ProjectBrowserReflection.html#logiked_source_editor_ProjectBrowserReflection_GetGUID_UnityEngine_Object_">ProjectBrowserReflection.GetGUID(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.ProjectBrowserReflection.html#logiked_source_editor_ProjectBrowserReflection_SelectAssetInProjectWindow_UnityEngine_Object_">ProjectBrowserReflection.SelectAssetInProjectWindow(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_GetFilePath_UnityEngine_ScriptableObject_">Logiked_AssetsExtention.GetFilePath(ScriptableObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.editor.Logiked_AssetsExtention.html#logiked_source_editor_Logiked_AssetsExtention_GetFolderPath_UnityEngine_ScriptableObject_">Logiked_AssetsExtention.GetFolderPath(ScriptableObject)</a>
+  </div>
+  <div>
+      <a class="xref" href="logiked.source.extentions.RemoveScriptableObjectExtention.html#logiked_source_extentions_RemoveScriptableObjectExtention_OnRemoveScriptableObject_UnityEngine_ScriptableObject_">RemoveScriptableObjectExtention.OnRemoveScriptableObject(ScriptableObject)</a>
+  </div>
 
 </article>
           </div>
@@ -485,10 +535,10 @@ Le type de base des élements est <a class="xref" href="logiked.source.database.
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/logiked/LogikedSource/new/PreRelease-Testing/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/logiked/LogikedSource/new/Unity-Release/apiSpec/new?filename=logiked_source_database_LogikedDatabase_3.md&amp;value=---%0Auid%3A%20logiked.source.database.LogikedDatabase%603%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/logiked/LogikedSource/blob/PreRelease-Testing/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L23" class="contribution-link">View Source</a>
+                    <a href="https://github.com/logiked/LogikedSource/blob/Unity-Release/Scripts/Database/LogikedDatabase/LogikedDatabase.cs/#L23" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

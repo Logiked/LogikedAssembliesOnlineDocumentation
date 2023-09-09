@@ -413,6 +413,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.editor.navigation.AssetNavigationUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.editor.navigation.AssetNavigationUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.editor.navigation.Logiked_ProjectBrowserExtention.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.editor.navigation.Logiked_ProjectBrowserExtention.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/logiked.editor.navigation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.editor.navigation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.language.LogikedPlugin_Language.yml",
       "output": {
         ".html": {
@@ -1633,6 +1663,16 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/logiked.source.types.LogikedPlugin-1.DefaultLogikedPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/logiked.source.types.LogikedPlugin-1.DefaultLogikedPlugin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/logiked.source.types.LogikedPlugin-1.yml",
       "output": {
         ".html": {
@@ -2097,6 +2137,36 @@
       "output": {
         "resource": {
           "relative_path": "articles/Features/logikedSourceTypes/type1.jpg"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_2D_Tools.unitypackage",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_2D_Tools.unitypackage"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Language_System.unitypackage",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Language_System.unitypackage"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Source.unitypackage",
+      "output": {
+        "resource": {
+          "relative_path": "articles/MainSection/Downloads/PackageInstaller_Logiked_Source.unitypackage"
         }
       },
       "version": ""

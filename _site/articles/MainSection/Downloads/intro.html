@@ -79,56 +79,68 @@
 
 <script>
 
-function myFunction() {
+function CopyClipboard( id) {
   // Get the text field
-  var copyText = document.getElementById("myInput");
+  var copyText = document.getElementById("logikedLink"+id);
 
    // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.href);
 
   // Alert the copied text
-  alert("Copied the text: " + copyText.href);
+ // alert("Copied the text: " + copyText.href);
 } 
 
 </script>
+<style>
+
+
+tr:has(td){
+height: 150px;
+}
+
+
+
+td a{
+direction:rtl;
+text-overflow: ellipsis;
+overflow:hidden;
+white-space: nowrap;
+max-width : 200px;
+}
+
+</style>
 <h1 id="downloads">Downloads</h1>
-<h2 id="procédure">Procédure</h2>
-<p>Les packages Logiked sont importables directement depuis le package manager Unity, via l'option <code>&quot;Add from git URL&quot;</code></p>
-<p><img src="img1.png" alt="Add package from git URL">
- </p>
-<p>Il vous suffit ensuite de copier l'addresse du package que vous souhaitez installer :</p>
-<p><img src="img2.png" alt="Use Git Url"></p>
-<h2 id="liens">Liens</h2>
-<p>Acuellement les packages doivent être ajoutés 1 par 1 depuis le package manager.</p>
-<h3 id="packages-nescessaires">Packages nescessaires</h3>
+<h2 id="installation-automatique">Installation automatique</h2>
+<p>Les package peuvent-être ajoutés au Package Manager en executant un fichier UnityPackages téléchargeable. Cliquez sur le téléchargement correspondant dans la liste ci-dessous.</p>
+<h3 id="packages-nécessaires">Packages nécessaires</h3>
 <table>
 <tr>
     <th>Package</th>
+    <th>Download</th>
     <th>Repository</th>
     <th>Disponibilité</th>
     <th>Description</th>
-    <th>Dépendances</th>
 </tr>
 <tr>
     <td>Logiked Source </td>
+    <td><a href="PackageInstaller_Logiked_Source.unitypackage">Download</a>
+    </td>
     <td> 
-        <a href="https://github.com/Logiked/LogikedSource.git" value="Hello World" id="myInput">
+        <a href="https://github.com/Logiked/LogikedSource.git" id="logikedLink1">
         https://github.com/Logiked/LogikedSource.git
         </a>
-        <br>
-        <button onclick="myFunction()">Copy</button>
+        <button onclick="CopyClipboard(1)">Copy</button>
     </td>
     <td><p>❌</p></td>
     <td>Package de base Logiked. Ensemble d'outils et de méthodes d'extensions. 
     </td>
-    <td>
-    </td>
 </tr>
 </table>
-<h3 id="packages-optionnels">Packages Optionnels</h3>
+<h3 id="packages-optionnels">Packages optionnels</h3>
 <table>
 <tr>
     <th>Package</th>
+    <th>Download</th>
     <th>Repository</th>
     <th>Disponibilité</th>
     <th>Description</th>
@@ -136,10 +148,14 @@ function myFunction() {
 </tr>
 <tr>
     <td>Logiked 2D Tools</td>
+    <td><a href="PackageInstaller_Logiked_2D_Tools.unitypackage">Download</a>
+    </td>
     <td>
-    <a href="https://github.com/Logiked/Logiked2DTools.git">
+    <a href="https://github.com/Logiked/Logiked2DTools.git" id="logikedLink2">
     https://github.com/Logiked/Logiked2DTools.git
     </a>
+    <button onclick="CopyClipboard(2)">Copy</button>
+    
     </td>
     <td>❌</td>
     <td>
@@ -151,8 +167,12 @@ function myFunction() {
 </tr>
 <tr>
     <td>Logiked Languages</td>
+        <td><a href="PackageInstaller_Logiked_Language_System.unitypackage">Download</a>
+    </td>
     <td>
-    <a href="https://github.com/Logiked/LogikedLanguage.git">https://github.com/Logiked/LogikedLanguage.git</a>
+    <a href="https://github.com/Logiked/LogikedLanguage.git" id="logikedLink3">
+    https://github.com/Logiked/LogikedLanguage.git</a>
+    <button onclick="CopyClipboard(3)">Copy</button>
     </td>
     <td>❌</td>
     <td>
@@ -164,6 +184,7 @@ function myFunction() {
 </tr>
 <tr>
     <td>Logiked Audio System</td>
+    <td>❌</td>
     <td>unvaliable</td>
     <td>❌</td>
     <td>
@@ -175,6 +196,7 @@ function myFunction() {
 </tr>
 <tr>
     <td>Logiked Mesh Terrain Generation System</td>
+    <td>❌</td>
     <td>unvaliable</td>
     <td>❌</td>
     <td>
@@ -185,6 +207,7 @@ function myFunction() {
 </tr>
 <tr>
     <td>Logiked Path Terrain Generation System </td>
+    <td>❌</td>
     <td>unvaliable</td>
     <td>❌</td>
     <td>
@@ -193,7 +216,15 @@ function myFunction() {
     LogikedSource
     </td>
 </tr>
-</table></article>
+</table>
+<h2 id="installation-manuelle">Installation manuelle</h2>
+<p>Les packages Logiked sont importables directement depuis le package manager Unity, via l'option <code>&quot;Add from git URL&quot;</code></p>
+<p><img src="img1.png" alt="Add package from git URL">
+ </p>
+<p>Il vous suffit ensuite de copier l'addresse du package que vous souhaitez installer :</p>
+<p><img src="img2.png" alt="Use Git Url"></p>
+<p>Acuellement les packages doivent être ajoutés 1 par 1 depuis le package manager.</p>
+</article>
           </div>
 
           <div class="hidden-sm col-md-2" role="complementary">
