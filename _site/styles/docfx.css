@@ -694,8 +694,12 @@ li > a:not(.expand-stub + a)   {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.article .big_img {
+  max-width: 100%;
+}
+
 .article img {
-    max-width: 100%;
+    max-width: 70%;
     display: block;
     margin: auto;
 }
